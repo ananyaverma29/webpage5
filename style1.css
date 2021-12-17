@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+   background:black;
+}
+h1{
+   margin-top:3%; 
+   color:peachpuff;
+}
+.v{
+
+   background-color:peachpuff;
+   padding-top: 10%;
+padding-bottom:10%;
+
+}
+
+.about{
+    color:black;
+    background-color:lavenderblush;
+  
+}
+.about h3{
+    margin-left: 10%;
+}
+.about h2{
+color:tomato;
+}
+.do{
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.donut{
+  
+    margin-top:5%;
+}
+.donation{
+    background-color: peachpuff;
+    color:black;
+}
+.responsive{
+    width:100%;
+    height: auto;
+}
+.bg-image {
+   
+  /*  background-image: url("dog2.jpg");*/
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /*full height */
+    height: 100%; 
+   /* margin-left: 10%;
+    padding-left: 20%;*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);  /*Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+/*
+ {
+    width: 100px;
+    height: 100px;
+  
+    transition: width 2s;
+  }
+  :hover{
+
+        width: 3000px;
+    
+      
+  }*/
+  a{
+      color:powderblue;
+  }
+  a:hover{
+      color:palegreen;
+  }
+  a:visited{
+      color:peachpuff;
+  }/*
+ @media(min-width:320px)
+ {
+    .donations img{
+        width:500px;
+    
+         }
+         .bg-text{
+        top:130%;
+        margin-left: 50%;
+         }
+         
+         .vi{
+             margin-left:0%;
+         }
+        }
+    
+        @media(min-width:600px)
+        {
+            .donations img{
+                width:500px;
+            margin-left: 16%;
+                 }
+                 .bg-text{
+                top:132%;
+                margin-left: 50%;
+                 }
+                 
+                 .vi{
+                     margin-left:0%;
+                 } 
+        }
+/*
+ @media(max-width:650px)
+ {
+ .donations img{
+width:500px;
+margin-left:6%;
+ }
+ .bg-text{
+top:145%;
+left:52%;
+ }
+
+ }
+ @media(max-width:820px)
+ {
+ .donations img{
+width:500px;
+margin-left:7%;
+ }
+ .bg-text{
+top:135%;
+left: 47%;
+ }
+ }
+
+ @media(max-width: 1000px)
+ {
+    .donations img{
+        width:500px;
+        margin-left:15%;
+         }
+         
+         .bg-image{
+            margin-left:5%;
+         }
+
+ }
+ @media(max-width: 1200px)
+ {
+    .donations img{
+        width:500px;
+        margin-left:20%;
+         }
+
+         .bg-text{
+            top:142%;
+             }
+         .bg-image{
+            margin-left:5%;
+         }
+         .vi{
+                margin-left:10%;
+         }
+
+ }
+ @media(max-width: 1400px)
+ {
+    .donations img{
+        width:500px;
+      margin-left:35%;
+         }
+         .bg-text{
+        top:148%;
+        margin-left: 57%;
+         }
+         .bg-image{
+            margin-left:5%;
+         }
+         .vi{
+             margin-left:30%;
+         }
+
+ }
+ @media(min-width: 1400px)
+ {
+    .donations img{
+        width:500px;
+        margin-left: 35%;
+         }
+         .bg-text{
+        top:160%;
+        margin-left: 50%;
+         }
+         
+         .vi{
+             margin-left:30%;
+         }
+        }*/
